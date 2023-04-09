@@ -10,5 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthenticationResponse {
+  private Boolean status;
+  private Integer statusCode;
+  private String message;
   private String token;
 }
